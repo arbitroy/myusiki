@@ -30,7 +30,7 @@ function CSEvents() {
   }, []);
 
   return (
-    <div className="container mx-auto rounded pt-20 sm:pl-8 sm:pr-4 max-w-xl lg:max-w-4xl">
+    <div className="container mx-auto rounded pt-36 sm:pl-20 sm:pt-36 sm:pr-4 max-w-xl lg:max-w-4xl">
       <ImageSlider
         images={[image1, image2, image3, image4, image5, image6, image7]}
       />

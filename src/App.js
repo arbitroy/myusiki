@@ -10,7 +10,7 @@ function App() {
   return (
     <Router className>
       <div className='relative bg-gray-700'>
-        <Navbar />
+        <Navbar/>
 
         <Routes>
           <Route path="/" element={<Hero />} />

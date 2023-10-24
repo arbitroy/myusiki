@@ -7,7 +7,7 @@ export default function ImageSlider({ images }) {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [images]);
@@ -16,7 +16,7 @@ export default function ImageSlider({ images }) {
     <div className="image-slider relative">
   <div className="relative">
     <img src={images[currentImageIndex]} alt="" className="w-full" />
-    <div className="absolute top-0 left-0 w-full h-full bg-opacity-70 bg-black text-white p-4 flex justify-center items-center">
+    <div className="absolute top-0 left-0 w-full h-full bg-opacity-70 bg-black text-white p-6 flex justify-center items-center">
       <p className="text-lg font-bold text-center">
         {getContentForIndex(currentImageIndex)}
       </p>
@@ -31,10 +31,10 @@ function getContentForIndex(index) {
   const contentMap = {
     0: (
       <div>
-        <p className="font-bold text-4xl">
+        <p className="font-bold text-3xl">
           Day 1 - #singlikesol (challenge, shorts, etc.)
         </p>
-        <p className="pt-4 text-xl">
+        <p className="pt-4 text-lg">
           This day is characterized by covers of any of the Sauti Sol hits. At
           least five from Myusiki with an interesting twist to them. At least
           three group and two solos but as many as possible.

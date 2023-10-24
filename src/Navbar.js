@@ -18,13 +18,13 @@ function Navbar() {
         <div className={'lg:flex flex-grow items-center'}>
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li className="flex items-center">
-          <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+          <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">Home</span>
               </Link>
-              <Link to="/events" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+              <Link to="/events" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">Events</span>
               </Link>
-              <Link to="/about" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+              <Link to="/about" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">About</span>
               </Link>
             </li>
