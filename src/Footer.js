@@ -1,7 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SocialIcon } from 'react-social-icons'
-import { faFacebook, faTwitter, faTiktok, faInstagram, faYoutube, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (

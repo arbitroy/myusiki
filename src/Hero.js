@@ -1,6 +1,5 @@
 import React from 'react';
 import backgroundImage from './assets/pexels-yan-krukau-9010066.jpg';
-import About from './AboutSection'
 import AboutSection from './AboutSection';
 function Hero() {
   const back = `url(${backgroundImage})`;
