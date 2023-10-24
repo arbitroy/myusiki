@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/%3CRepository-name%3E/static/css/main.7655d90d.css",
+    "main.js": "/%3CRepository-name%3E/static/js/main.fd4a977f.js",
+    "static/js/787.1d904ac1.chunk.js": "/%3CRepository-name%3E/static/js/787.1d904ac1.chunk.js",
+    "static/media/black-boy-posing-with-headphones.jpg": "/%3CRepository-name%3E/static/media/black-boy-posing-with-headphones.52e6819b86d4b6c1739a.jpg",
+    "static/media/adedotun-adegborioye-pVSjlshmGs8-unsplash.jpg": "/%3CRepository-name%3E/static/media/adedotun-adegborioye-pVSjlshmGs8-unsplash.a719d6d35304af0a47b9.jpg",
+    "static/media/group-afro-americans-working-together.jpg": "/%3CRepository-name%3E/static/media/group-afro-americans-working-together.011103404029d5861ec2.jpg",
+    "static/media/pretty_girl.jpg": "/%3CRepository-name%3E/static/media/pretty_girl.56434d9de1dfb11e1d11.jpg",
+    "static/media/alekon-pictures-gqX0rPCmdiU-unsplash.jpg": "/%3CRepository-name%3E/static/media/alekon-pictures-gqX0rPCmdiU-unsplash.f2b6c338c1a62213716f.jpg",
+    "static/media/pexels-yan-krukau-9010066.jpg": "/%3CRepository-name%3E/static/media/pexels-yan-krukau-9010066.0f2d8427f96140d78827.jpg",
+    "static/media/richie-lugo-uSC6z5ajEVM-unsplash.jpg": "/%3CRepository-name%3E/static/media/richie-lugo-uSC6z5ajEVM-unsplash.e8f4b80372aa1cb787b7.jpg",
+    "static/media/austin-neill-_uzJEiPETvY-unsplash.jpg": "/%3CRepository-name%3E/static/media/austin-neill-_uzJEiPETvY-unsplash.a61099ad036c5649146a.jpg",
+    "static/media/harry-swales-bfN0oW5d9-M-unsplash.jpg": "/%3CRepository-name%3E/static/media/harry-swales-bfN0oW5d9-M-unsplash.855b4db901dbe60cb8bc.jpg",
+    "static/media/vidar-nordli-mathisen-QsDArmUhlAE-unsplash.jpg": "/%3CRepository-name%3E/static/media/vidar-nordli-mathisen-QsDArmUhlAE-unsplash.d8cdc0c1adcf7891c3a6.jpg",
+    "static/media/myusiki.png": "/%3CRepository-name%3E/static/media/myusiki.4cd0ff9cb3cf48ae9501.png",
+    "index.html": "/%3CRepository-name%3E/index.html",
+    "main.7655d90d.css.map": "/%3CRepository-name%3E/static/css/main.7655d90d.css.map",
+    "main.fd4a977f.js.map": "/%3CRepository-name%3E/static/js/main.fd4a977f.js.map",
+    "787.1d904ac1.chunk.js.map": "/%3CRepository-name%3E/static/js/787.1d904ac1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7655d90d.css",
+    "static/js/main.fd4a977f.js"
+  ]
+}
