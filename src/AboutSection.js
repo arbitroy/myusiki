@@ -9,58 +9,15 @@ function AboutSection() {
             <img
               alt="..."
               className="max-w-full rounded-lg shadow-lg"
-              src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+              src={require('./assets/pretty_girl.jpg')}
             />
           </div>
           <div className="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="fade-left">
             <div className="md:pr-12">
-              <small className="text-orange-500">About our gym</small>
-              <h3 className="text-4xl uppercase font-bold">Safe Body Building</h3>
+              <small className="text-red-500">About the group</small>
+              <h3 className="text-4xl uppercase font-bold">Artistry and community</h3>
               <p className="mt-4 text-lg leading-relaxed">
-                The extension comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.
-              </p>
-              <ul className="list-none mt-6">
-                <li className="py-2">
-                  <div className="flex items-center">
-                    <div>
-                      <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
-                        <i className="fas fa-dumbbell fa-2x"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 className="text-xl">
-                        The latest & greatest gym equipment
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li className="py-2">
-                  <div className="flex items-center">
-                    <div>
-                      <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
-                        <i className="fas fa-hard-hat fa-2x"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 className="text-xl">
-                        5-inch, quality foam floor padding
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li className="py-2">
-                  <div className="flex items-center">
-                    <div>
-                      <span className="font-semibold inline-block py-3 mr-3 text-orange-500">
-                        <i className="fas fa-users fa-2x"></i>
-                      </span>
-                    </div>
-                    <div>
-                      <h4 className="text-xl">3 professional trainers</h4>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+              Myusiki Foundation fulfills the long-awaited dream of connecting artists, fans, and music enthusiasts in a vibrant community. It emerged from a deep desire for a platform to sing and a recognition of the challenges faced by emerging artists in finding an audience. Our mission is to nurture young talents, enabling every musical soul to reach their full potential. We aspire to provide a supportive community for artists of all scales, fostering the creation of transformative music that empowers everyone.                     </p>
             </div>
           </div>
         </div>

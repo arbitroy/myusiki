@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { SocialIcon } from 'react-social-icons'
+import { faFacebook, faTwitter, faTiktok, faInstagram, faYoutube, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -17,16 +18,13 @@ function Footer() {
             <h5 className="text-lg mt-3 mb-2 text-gray-700">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
-            <div className="mt-6">
-              <button className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
-              <FontAwesomeIcon icon={faTwitter} className="flex text-red-500 text-lg leading-lg" />
-              </button>
-              <button className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
-              <FontAwesomeIcon icon={faFacebook} className="flex text-red-500 text-lg leading-lg" />
-              </button>
-              <button className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3" type="button">
-              <FontAwesomeIcon icon={faLinkedin} className="flex text-red-500 text-lg leading-lg" />
-              </button>
+            <div className="mt-6 flex w-18 justify-between">
+              <SocialIcon url="https://twitter.com/OffMyusiki" />
+              <SocialIcon url="https://www.facebook.com/profile.php?id=61552608153411" />
+              <SocialIcon url=" https://whatsapp.com/channel/0029VaCdhgWCnA7nsEdw0H2I" />
+              <SocialIcon url="https://www.tiktok.com/@myusiki.official?is_from_webapp=1&sender_device=pc" />
+              <SocialIcon url="https://www.instagram.com/myusiki.official/" />
+              <SocialIcon url="https://youtube.com/@Myusiki.Official?si=0ILz_9OKBvqnrk2C" />
             </div>
           </div>
         </div>

@@ -2,18 +2,20 @@ import Footer from './Footer';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import Events from './CSEvents'; // Import the Events component
+import About from './About';
 
 import {  BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div>
+    <Router className>
+      <div className='relative bg-gray-700'>
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/events" element={<Events />} />
+          <Route path='/about' element={<About/>}/>
         </Routes>
 
         <Footer />

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import logo from './assets/myusiki.png';
 
 function Navbar() {
@@ -20,26 +18,14 @@ function Navbar() {
         <div className={'lg:flex flex-grow items-center'}>
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li className="flex items-center">
+          <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                <span className="inline-block ml-2">Home</span>
+              </Link>
               <Link to="/events" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">Events</span>
               </Link>
-            </li>
-            <li className="flex items-center">
-              <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                <FontAwesomeIcon icon={faFacebook} className="text-red-500 text-lg leading-lg" />
-                <span className="lg:hidden inline-block ml-2">Share</span>
-              </Link>
-            </li>
-            <li className="flex items-center">
-              <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                <FontAwesomeIcon icon={faTwitter} className="text-red-500 text-lg leading-lg" />
-                <span className="lg:hidden inline-block ml-2">Tweet</span>
-              </Link>
-            </li>
-            <li className="flex items-center">
-              <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                <FontAwesomeIcon icon={faLinkedin} className="text-red-500 text-lg leading-lg" />
-                <span className="lg:hidden inline-block ml-2">Profile</span>
+              <Link to="/about" className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                <span className="inline-block ml-2">About</span>
               </Link>
             </li>
           </ul>
