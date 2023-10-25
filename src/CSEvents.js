@@ -1,3 +1,4 @@
+'use clients'
 import React, { useState, useEffect } from 'react';
 import ImageSlider from './ImageSlider';
 import image1 from './assets/7/adedotun-adegborioye-pVSjlshmGs8-unsplash.jpg';
@@ -13,18 +14,43 @@ function CSEvents() {
   const [site, setSite] = useState('');
   const [search, setSearch] = useState('');
   const [events, setEvents] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [sites, setSites] = useState([]);
+  const [categories, setCategories] = useState([]); // Define categories state
+  const [sites, setSites] = useState([]); // Define sites state
+
+  // Create an array for the new events
+  const newEvents = [
+    {
+      name: 'Myusiki Presents: The Asante Sol Fest',
+      date: '3rd November 2023',
+      time: '7pm to Late',
+      location: 'Ridgewood Hotel, King’ong’o Nyeri',
+      link: 'URL_for_tickets', // Add the URL for tickets here
+      image: image6, // Add the image URL for this event
+    },
+    {
+      name: 'Seven Days of Sol: Day 1 - Sauti Sol Covers #singlikesol',
+      date: 'Saturday 28th October 2023',
+      time: '',
+      location: '',
+      link: 'URL_for_event_1', // Add the URL for this event
+      image: image2, // Add the image URL for this event
+    },
+    // Add the rest of the new events here
+  ];
 
   useEffect(() => {
     // Fetch data for events, categories, and sites here
-    // Replace the following placeholders with actual data
+    // Replace the following placeholders with your actual data fetching logic
     const dummyData = {
       events: [], // Array of event objects
       categories: [], // Array of category names
       sites: [], // Array of site names
     };
-    setEvents(dummyData.events);
+
+    // Combine the existing events with the new events
+    const allEvents = [...dummyData.events, ...newEvents];
+
+    setEvents(allEvents);
     setCategories(dummyData.categories);
     setSites(dummyData.sites);
   }, []);

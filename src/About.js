@@ -1,3 +1,5 @@
+
+
 export default function About() {
   return (
     <>
@@ -46,37 +48,37 @@ export default function About() {
     </div>
     <section className="py-6 dark:bg-gray-800 dark:text-gray-100" >
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <h3 className="text-2xl font-bold text-center tracking-tight text-black sm:text-6xl">
+        <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
             Misson
           </h3>
-          <p className="mt-6 text-lg text-center leading-8 ">
+          <p className="mt-6 text-lg text-center leading-8 text-white">
           To create an artistic soul for every creative to fond a place to grow and belong while giving every music lover and fun a chance to interact with their favorite artist on a more personal level.          </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-        <h3 className="text-2xl font-bold text-center tracking-tight text-black sm:text-6xl">
+        <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
         Vision
           </h3>
-          <p className="mt-6 text-lg text-center leading-8 ">
+          <p className="mt-6 text-lg text-center text-white leading-8 ">
           To be the global home for artists and music lovers where they feel like they belong and are free to just be themselves because we understand what it takes to be a creative in the middle of a chaotic world. 
                 </p> </div>
     </section>
     <section className="py-6 dark:bg-gray-800 ">
 	<div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-		<h1 className="text-4xl font-bold leadi text-center sm:text-5xl">Our team</h1>
-		<p className="max-w-2xl text-center dark:text-gray-400">Welcome to the heart and soul of our organization. Our teams are the driving force behind our mission and success. Get to know the talented individuals who work tirelessly to bring innovation, expertise, and dedication to every aspect of our foundation.</p>
+		<h1 className="text-4xl font-bold text-red-500 text-center sm:text-5xl">Our team</h1>
+		<p className="max-w-2xl text-center text-white dark:text-gray-400">Welcome to the heart and soul of our organization. Our teams are the driving force behind our mission and success. Get to know the talented individuals who work tirelessly to bring innovation, expertise, and dedication to every aspect of our foundation.</p>
 		<div className="flex flex-row flex-wrap justify-center">
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?0" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/stedy.jpg")} />
 				<p className="text-xl font-semibold leadi">Roland Stedy</p>
 				<p className="dark:text-gray-400">Chief Executive Officer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?1" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/chelsea.jpg")} />
 				<p className="text-xl font-semibold leadi">Chelsea Machini</p>
 				<p className="dark:text-gray-400">Chief Financial Officer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?2" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/austine.jpg")} />
 				<p className="text-xl font-semibold leadi">Austine Ndauwa</p>
 				<p className="dark:text-gray-400">Chief Technical Officer.</p>
 			</div>
@@ -86,22 +88,17 @@ export default function About() {
 				<p className="dark:text-gray-400">Chief Marketing Officer</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?4" />
-				<p className="text-xl font-semibold leadi">Leroy Jenkins</p>
-				<p className="dark:text-gray-400">Visual Designer</p>
-			</div>
-			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?5" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/Victor.jpg")} />
 				<p className="text-xl font-semibold leadi">Victor Obare</p>
 				<p className="dark:text-gray-400">Lead Music Production</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?5" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/steph.jpg")} />
 				<p className="text-xl font-semibold leadi">Stephanie Njoki</p>
 				<p className="dark:text-gray-400">Lead Vocalist</p>
 			</div>
 			<div className="flex flex-col justify-center m-8 text-center">
-				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?5" />
+				<img alt="" className="self-center flex-shrink-0 w-24 h-24 mb-4 bg-center bg-cover rounded-full dark:bg-gray-500" src={require("./assets/profile/Fido.jpg")} />
 				<p className="text-xl font-semibold leadi">Fidelis Njoroge</p>
 				<p className="dark:text-gray-400">Lead Choreography.</p>
 			</div>
