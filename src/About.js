@@ -41,45 +41,48 @@ export default function About() {
               community for artists and their fans and music lovers to meet,
               greet and have a good time. The idea was born out of a great
               desire to have a place to sing and out of the realization of how
-              difficult it is for young and upcoming artists to find and
-              audience to listen to their music. The aim of the foundation is to
-              nurture young talent so that every musical soul gets to attain
-              their maximum potential. We also aim to give every artistic soul
-              whether big time or small time, a community to listen to their
-              music right where they are. We also aim to create the biggest
-              global community of creatives that unite in the common ambition of
-              creating good music that gives everyone wings to fly.
+              difficult it is for young and upcoming artists to find an audience
+              to listen to their music. The aim of the foundation is to nurture
+              young talent so that every musical soul gets to attain their
+              maximum potential. We also aim to give every artistic soul whether
+              big time or small time, a community to listen to their music right
+              where they are. We also aim to create the biggest global community
+              of creatives that unite in the common ambition of creating good
+              music that gives everyone wings to fly.
             </p>
           </div>
         </div>
       </div>
-      <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
-            Misson
-          </h3>
-          <p className="mt-6 text-lg text-center leading-8 text-white">
-            To create an artistic soul for every creative to fond a place to
-            grow and belong while giving every music lover and fun a chance to
-            interact with their favorite artist on a more personal level.{' '}
-          </p>
-        </div>
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
-            Vision
-          </h3>
-          <p className="mt-6 text-lg text-center text-white leading-8 ">
-            To be the global home for artists and music lovers where they feel
-            like they belong and are free to just be themselves because we
-            understand what it takes to be a creative in the middle of a chaotic
-            world.
-          </p>{' '}
+      <section className="py-6 dark:bg-gray-800">
+        <div className="container flex flex-wrap items-center justify-center p-4 mx-auto sm:p-10">
+          <div className="w-full lg:w-1/2 p-4">
+            <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
+              Mission
+            </h3>
+            <p className="mt-6 text-lg text-center leading-8 text-white">
+              To create an artistic soul for every creative to find a place to
+              grow and belong while giving every music lover and fan a chance to
+              interact with their favorite artist on a more personal level.
+            </p>
+          </div>
+          <div className="w-full lg:w-1/2 p-4">
+            <h3 className="text-2xl font-bold text-center tracking-tight text-red-500 sm:text-6xl">
+              Vision
+            </h3>
+            <p className="mt-6 text-lg text-center text-white leading-8">
+              To be the global home for artists and music lovers where they feel
+              like they belong and are free to just be themselves because we
+              understand what it takes to be a creative in the middle of a
+              chaotic world.
+            </p>
+          </div>
         </div>
       </section>
-      <section className="py-6 dark:bg-gray-800 ">
+      <section className="py-6 dark:bg-gray-800">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-          <h2 class="mb-4 text-5xl font-bold">
-            <span class="text-white">Meet the </span><u className="text-red-500">team</u>
+          <h2 className="mb-4 text-5xl font-bold">
+            <span className="text-white">Meet the</span>{' '}
+            <u className="text-red-500">team</u>
           </h2>
           <p className="max-w-2xl text-center text-white dark:text-gray-400">
             Welcome to the heart and soul of our organization. Our teams are the
@@ -87,69 +90,83 @@ export default function About() {
             talented individuals who work tirelessly to bring innovation,
             expertise, and dedication to every aspect of our foundation.
           </p>
-          <div class="lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-3">
-            <div class="mb-12 lg:mb-0">
+          <div className="lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-3">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[170px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[170px] h-[200px]"
                 src={require('./assets/profile/stedy.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Roland Stedy</h5>
-              <p class="mb-6 text-white">Chief Executive Officer</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Roland Stedy
+              </h5>
+              <p className="mb-6 text-white">Chief Executive Officer</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
                 src={require('./assets/profile/chelsea.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Chelsea Machini</h5>
-              <p class="mb-6 text-white">Chief Financial Officer</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Chelsea Machini
+              </h5>
+              <p className="mb-6 text-white">Chief Financial Officer</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[170px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[170px] h-[200px]"
                 src={require('./assets/profile/austine.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Austine Ndauwa</h5>
-              <p class="mb-6 text-white">Chief Technical Officer</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Austine Ndauwa
+              </h5>
+              <p className="mb-6 text-white">Chief Technical Officer</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[150px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[150px]"
                 src="https://source.unsplash.com/100x100/?portrait?3"
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Sheila Otuko</h5>
-              <p class="mb-6 text-white">Chief Marketing Officer</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Sheila Otuko
+              </h5>
+              <p className="mb-6 text-white">Chief Marketing Officer</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
                 src={require('./assets/profile/Victor.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Victor Obare</h5>
-              <p class="mb-6 text-white">Lead Music Production</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Victor Obare
+              </h5>
+              <p className="mb-6 text-white">Lead Music Production</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
                 src={require('./assets/profile/steph.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Stephanie Njoki</h5>
-              <p class="mb-6 text-white">Lead Vocalist</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Stephanie Njoki
+              </h5>
+              <p className="mb-6 text-white">Lead Vocalist</p>
             </div>
-            <div class="mb-12 lg:mb-0">
+            <div className="mb-12 lg:mb-0">
               <img
-                class="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
+                className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px] h-[200px]"
                 src={require('./assets/profile/Fido.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold text-white">Fidelis Njoroge</h5>
-              <p class="mb-6 text-white">Lead Choreography.</p>
+              <h5 className="mb-4 text-lg font-bold text-white">
+                Fidelis Njoroge
+              </h5>
+              <p className="mb-6 text-white">Lead Choreography.</p>
             </div>
           </div>
         </div>

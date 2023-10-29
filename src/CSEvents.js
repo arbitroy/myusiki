@@ -53,7 +53,7 @@ function CSEvents() {
     setEvents(allEvents);
     setCategories(dummyData.categories);
     setSites(dummyData.sites);
-  }, []);
+  }, [newEvents]);
 
   return (
     <div className="container mx-auto rounded pt-36 sm:pl-20 sm:pt-36 sm:pr-4 max-w-xl lg:max-w-4xl">
