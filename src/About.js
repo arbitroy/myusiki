@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 py-36 sm:py-32">
+      <div className="relative isolate overflow-hidden bg-black-900 py-36 sm:py-32">
         <img
           src={require('./assets/group-afro-americans-working-together.jpg')}
           alt=""
@@ -33,7 +33,7 @@ export default function About() {
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+            <h2 className="text-4xl font-bold tracking-tight text-red-500 sm:text-6xl">
               About us
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
@@ -78,8 +78,8 @@ export default function About() {
       </section>
       <section className="py-6 dark:bg-gray-800 ">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto space-y-8 sm:p-10">
-          <h2 class="mb-12 text-5xl font-bold">
-            Meet the <u class="text-primary dark:text-primary-400">team</u>
+          <h2 class="mb-4 text-5xl font-bold">
+            <span class="text-white">Meet the </span><u className="text-red-500">team</u>
           </h2>
           <p className="max-w-2xl text-center text-white dark:text-gray-400">
             Welcome to the heart and soul of our organization. Our teams are the
@@ -94,8 +94,8 @@ export default function About() {
                 src={require('./assets/profile/stedy.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Roland Stedy</h5>
-              <p class="mb-6">Chief Executive Officer</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Roland Stedy</h5>
+              <p class="mb-6 text-white">Chief Executive Officer</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -103,8 +103,8 @@ export default function About() {
                 src={require('./assets/profile/chelsea.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Chelsea Machini</h5>
-              <p class="mb-6">Chief Financial Officer</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Chelsea Machini</h5>
+              <p class="mb-6 text-white">Chief Financial Officer</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -112,8 +112,8 @@ export default function About() {
                 src={require('./assets/profile/austine.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Austine Ndauwa</h5>
-              <p class="mb-6">Chief Technical Officer</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Austine Ndauwa</h5>
+              <p class="mb-6 text-white">Chief Technical Officer</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -121,8 +121,8 @@ export default function About() {
                 src="https://source.unsplash.com/100x100/?portrait?3"
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Sheila Otuko</h5>
-              <p class="mb-6">Chief Marketing Officer</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Sheila Otuko</h5>
+              <p class="mb-6 text-white">Chief Marketing Officer</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -130,8 +130,8 @@ export default function About() {
                 src={require('./assets/profile/Victor.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Victor Obare</h5>
-              <p class="mb-6">Lead Music Production</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Victor Obare</h5>
+              <p class="mb-6 text-white">Lead Music Production</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -139,8 +139,8 @@ export default function About() {
                 src={require('./assets/profile/steph.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Stephanie Njoki</h5>
-              <p class="mb-6">Lead Vocalist</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Stephanie Njoki</h5>
+              <p class="mb-6 text-white">Lead Vocalist</p>
             </div>
             <div class="mb-12 lg:mb-0">
               <img
@@ -148,8 +148,8 @@ export default function About() {
                 src={require('./assets/profile/Fido.jpg')}
                 alt="avatar"
               />
-              <h5 class="mb-4 text-lg font-bold">Fidelis Njoroge</h5>
-              <p class="mb-6">Lead Choreography.</p>
+              <h5 class="mb-4 text-lg font-bold text-white">Fidelis Njoroge</h5>
+              <p class="mb-6 text-white">Lead Choreography.</p>
             </div>
           </div>
         </div>

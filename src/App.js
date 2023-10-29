@@ -9,7 +9,7 @@ import {  BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router className>
-      <div className='relative bg-gray-700'>
+      <div className='relative bg-black'>
         <Navbar/>
 
         <Routes>
