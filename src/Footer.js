@@ -17,12 +17,12 @@ function Footer() {
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div className="mt-6 flex w-18 justify-between">
-              <SocialIcon url="https://twitter.com/OffMyusiki" />
-              <SocialIcon url="https://www.facebook.com/profile.php?id=61552608153411" />
-              <SocialIcon url=" https://whatsapp.com/channel/0029VaCdhgWCnA7nsEdw0H2I" />
-              <SocialIcon url="https://www.tiktok.com/@myusiki.official?is_from_webapp=1&sender_device=pc" />
-              <SocialIcon url="https://www.instagram.com/myusiki.official/" />
-              <SocialIcon url="https://youtube.com/@Myusiki.Official?si=0ILz_9OKBvqnrk2C" />
+              <SocialIcon url="https://twitter.com/OffMyusiki" target="_blank"/>
+              <SocialIcon url="https://www.facebook.com/profile.php?id=61552608153411" target="_blank"/>
+              <SocialIcon url=" https://whatsapp.com/channel/0029VaCdhgWCnA7nsEdw0H2I" target="_blank"/>
+              <SocialIcon url="https://www.tiktok.com/@myusiki.official?is_from_webapp=1&sender_device=pc" target="_blank"/>
+              <SocialIcon url="https://www.instagram.com/myusiki.official/" target="_blank"/>
+              <SocialIcon url="https://youtube.com/@Myusiki.Official?si=0ILz_9OKBvqnrk2C" target="_blank"/>
             </div>
           </div>
         </div>
