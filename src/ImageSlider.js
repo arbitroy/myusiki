@@ -98,7 +98,7 @@ export default function ImageSlider({ images }) {
   }
 
   return (
-    <div className="pt-8 pb-60 w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-pink-500 font-montserrat relative">
+    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-purple-500 to-pink-500 font-montserrat relative">
       <div className="w-96 h-96 relative perspective-3d transform-style-preserve-3d">
         <button
           className="absolute top-1/2 left-3 transform -translate-y-1/2 text-white text-5xl z-20 cursor-pointer select-none bg-transparent border-none"
@@ -131,7 +131,7 @@ export default function ImageSlider({ images }) {
           </div>
         ))}
         <button
-          className="absolute top-36 right-3 transform translate-y-1/2 text-white text-5xl z-20 cursor-pointer select-none bg-transparent border-none"
+          className="absolute top-1/2 right-3 transform translate-y-1/2 text-white text-5xl z-20 cursor-pointer select-none bg-transparent border-none"
           onClick={nextImage}
         >
           &gt;
