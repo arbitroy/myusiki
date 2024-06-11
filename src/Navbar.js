@@ -21,9 +21,9 @@ function Navbar() {
           <Link to="/" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">Home</span>
               </Link>
-              <Link to="/events" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+              {/* <Link to="/events" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">Events</span>
-              </Link>
+              </Link> */}
               <Link to="/about" className="lg:text-white lg:hover:text-gray-300 text-white px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <span className="inline-block ml-2">About</span>
               </Link>
