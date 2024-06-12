@@ -1,27 +1,23 @@
 import React from 'react';
-
-
+import "./style.css";
 function CSEvents() {
-
-
   return (
     <div className=''>
-
-      <section className="py-6 bg-blue-300">
-        <div className='container flex flex-wrap items-center justify-center p-4 mx-auto sm:p-10'>
-          <div className="container flex flex-wrap items-center justify-center p-4 mx-auto sm:p-10">
+      <section className="pt-20 bg-blue-300">
+        <div className='container flex flex-wrap items-center justify-center mx-auto sm:p-10'>
+          <div className="container flex flex-wrap items-center justify-center sm:p-10">
             <div className="w-full lg:w-1/2 p-4">
               <h3 className="text-xl font-bold text-center tracking-tight text-gray-800 sm:text-6xl">
                 Events
               </h3>
-              <h6 className='font-bold text-center tracking-tight text-gray-800 sm:text-xl'>
+              <h6 className='font-bold text-center tracking-tight text-gray-800 sm:text-xl pt-3'>
                 Don't miss out on an event get your tickets today!<br /> No upcoming event? Look at our past events!
               </h6>
             </div>
           </div>
-          <div class="relative text-gray-600">
-            <input type="search" name="serch" placeholder="Search for events" className="bg-white h-10 px-5 pr-80 rounded-full text-sm focus:outline-none" />
-            <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+          <div className="relative text-gray-600">
+            <input type="search" name="search" placeholder="Search for events" className="bg-white h-10 px-5 rounded-full text-sm focus:outline-none w-80" />
+            <button type="submit" className="absolute right-0 top-0 mt-3 mr-4">
               <img
                 width={20}
                 height={20}
